@@ -1,0 +1,4 @@
+payment_method,orders,total_sales
+Credit Card,2,67000.0
+UPI,2,53000.0
+Debit Card,1,6000.0

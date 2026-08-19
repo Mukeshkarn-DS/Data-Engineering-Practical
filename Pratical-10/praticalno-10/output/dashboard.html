@@ -1,0 +1,116 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>E-Commerce Sales Dashboard</title><style>body{font:16px Georgia,serif;max-width:1150px;margin:32px auto;padding:0 18px;color:#17324d;background:#f4f1ea}h1{font-size:40px;margin-bottom:4px}p{color:#537087}.cards{display:flex;gap:14px;flex-wrap:wrap;margin:25px 0}article{background:#fff;border-left:5px solid #e26d5a;padding:16px 22px;min-width:160px;box-shadow:0 3px 12px #17324d18}article strong,article span{display:block}article strong{font-size:25px}article span{margin-top:7px;color:#537087}section{background:#fff;padding:18px;margin:20px 0;overflow:auto;box-shadow:0 3px 12px #17324d12}h2{margin-top:0;color:#e26d5a}table{border-collapse:collapse;width:100%}th,td{padding:8px 11px;border-bottom:1px solid #dce3e6;text-align:left}th{background:#e8eef0}</style></head><body><h1>E-Commerce Sales Dashboard</h1><p>Star-schema analytics refreshed from the CSV source tables.</p><div class='cards'><article><strong>₹126,000</strong><span>Total Sales</span></article><article><strong>5</strong><span>Total Orders</span></article><article><strong>9</strong><span>Total Quantity</span></article><article><strong>₹25,200</strong><span>Average Order Value</span></article></div><section><h2>Sales By Category</h2><table border="1" class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Electronics</td>
+      <td>117000.0</td>
+    </tr>
+    <tr>
+      <td>Accessories</td>
+      <td>9000.0</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Sales By Product</h2><table border="1" class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>product_name</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Laptop</td>
+      <td>55000.0</td>
+    </tr>
+    <tr>
+      <td>Mobile</td>
+      <td>50000.0</td>
+    </tr>
+    <tr>
+      <td>Monitor</td>
+      <td>12000.0</td>
+    </tr>
+    <tr>
+      <td>Headphones</td>
+      <td>6000.0</td>
+    </tr>
+    <tr>
+      <td>Keyboard</td>
+      <td>3000.0</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Sales By City</h2><table border="1" class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>city</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mumbai</td>
+      <td>55000.0</td>
+    </tr>
+    <tr>
+      <td>Pune</td>
+      <td>50000.0</td>
+    </tr>
+    <tr>
+      <td>Bangalore</td>
+      <td>12000.0</td>
+    </tr>
+    <tr>
+      <td>Nagpur</td>
+      <td>6000.0</td>
+    </tr>
+    <tr>
+      <td>Delhi</td>
+      <td>3000.0</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Monthly Sales</h2><table border="1" class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>year</th>
+      <th>month</th>
+      <th>monthly_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025</td>
+      <td>4</td>
+      <td>126000.0</td>
+    </tr>
+  </tbody>
+</table></section><section><h2>Payment Method Distribution</h2><table border="1" class="dataframe report-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>payment_method</th>
+      <th>orders</th>
+      <th>total_sales</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Credit Card</td>
+      <td>2</td>
+      <td>67000.0</td>
+    </tr>
+    <tr>
+      <td>UPI</td>
+      <td>2</td>
+      <td>53000.0</td>
+    </tr>
+    <tr>
+      <td>Debit Card</td>
+      <td>1</td>
+      <td>6000.0</td>
+    </tr>
+  </tbody>
+</table></section></body></html>
