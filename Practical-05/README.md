@@ -13,29 +13,19 @@ Extract data from an external API and local CSV, merge records, and save cleaned
 - Python 3.10+
 - `pandas`
 - `requests`
-- Internet connectivity for API call to `https://jsonplaceholder.typicode.com/users`
+- Internet connectivity for the API call
 
 ## Dependency install
 ```bash
 pip install pandas requests
 ```
 
-## Execution guidance
+## Execution
 ```bash
-cd Pratical-05
+cd Practical-05
 python data_extraction.py
 ```
 
-## Expected/available outputs
-- Printed API and CSV tables in terminal
-- `cleaned_warehouse_profiles.csv` created/updated in folder
-
-## Troubleshooting
-- API failures: check internet/proxy/firewall and retry.
-- Empty output: confirm API endpoint availability.
-
-## Verification status
-- External API execution was **not re-run in this documentation stage**.
-
 ## Learning outcomes
-- Practice basic extraction from REST + CSV and merge into cleaned analytical output.
+- Practice extraction from REST API and CSV sources.
+- Merge the sources into a cleaned analytical output.
