@@ -1,0 +1,38 @@
+name: Documentation improvement
+about: Suggest an improvement to README or repository guidance
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest factual improvements to repository documentation.
+  - type: input
+    id: target_file
+    attributes:
+      label: Target documentation file
+      placeholder: e.g. README.md or Pratical-05/README.md
+    validations:
+      required: true
+  - type: textarea
+    id: current_issue
+    attributes:
+      label: Current issue
+      description: What is unclear or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed change
+      description: Share your recommended wording or structure.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Checklist
+      options:
+        - label: My suggestion does not require deleting or renaming original coursework folders/files.
+          required: true
+        - label: My suggestion avoids invented results or unverified claims.
+          required: true

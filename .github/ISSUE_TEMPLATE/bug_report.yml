@@ -1,0 +1,53 @@
+name: Bug report
+about: Report an issue in scripts, paths, or practical guidance
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please keep reports factual and include exact file paths.
+  - type: input
+    id: practical
+    attributes:
+      label: Practical folder
+      placeholder: e.g. Pratical-09 or Practical-01
+    validations:
+      required: true
+  - type: input
+    id: file_path
+    attributes:
+      label: File path
+      placeholder: e.g. Pratical-09/pratical no 9/etl_pipeline.py
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe expected vs actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. cd ...
+        2. python ...
+        3. observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output
+      description: Paste traceback/logs/screenshots if available.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Checklist
+      options:
+        - label: I confirmed this is from the current repository content and not a local unrelated change.
+          required: true
+        - label: I did not include secrets or private credentials in this issue.
+          required: true
