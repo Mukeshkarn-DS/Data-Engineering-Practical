@@ -43,7 +43,7 @@ The main objectives of this practical work are:
 | ------------ | ------------------------------------------------ | ------------------------- |
 | Practical 01 | File parsing, binary files, regex, database CRUD | Python, SQLite, Pandas    |
 | Practical 02 | Business Intelligence dashboard                  | Power BI, Excel           |
-| Practical 03 | Document operations                              | JavaScript & MangoDB               |
+| Practical 03 | MongoDB document operations                   | JavaScript & MongoDB              |
 | Practical 04 | Data analysis and visualization                  | Python, Data Analysis     |
 | Practical 05 | Data extraction and warehouse/location data      | Python, Pandas            |
 | Practical 06 | Workflow orchestration                           | Apache Airflow            |
@@ -201,23 +201,95 @@ The Power BI project and supporting Excel dataset are stored directly in the pra
 
 ---
 
-# 🔹 Practical 03 — Document Operations
+# 🔹 Practical 03 — MongoDB Operations
 
 📁 **Folder:** `Pratical-03/praticallno3`
 
-Practical 03 currently contains:
+Practical 03 demonstrates basic **MongoDB document operations** using JavaScript and MongoDB.
 
-```text
-document_operations.js
-```
+### Aim
 
-This practical demonstrates document/string-related processing using JavaScript.
+To perform single and multiple document insertion and retrieval operations in MongoDB.
 
 ### Technology
 
-* JavaScript & Mangodb
+* JavaScript
+* MongoDB
+* mongosh
 
-### File
+### Database
+
+`practical3`
+
+### Collection 1 — `items`
+
+#### Step 1: Insert a Single Document
+
+```javascript
+db.items.insertOne({
+  name: "laptop",
+  price: 999
+});
+```
+
+This inserts one document into the `items` collection.
+
+#### Step 2: Retrieve the Document
+
+```javascript
+db.items.find();
+```
+
+This displays the documents stored in the `items` collection.
+
+### Collection 2 — `products`
+
+#### Step 3: Insert Multiple Documents
+
+```javascript
+db.products.insertMany([
+  { name: "phone", price: 500, stock: 10 },
+  { name: "tablet", price: 300, stock: 5 },
+  { name: "watch", price: 150, stock: 0 }
+]);
+```
+
+This inserts three product documents into the `products` collection.
+
+#### Step 4: Retrieve Products
+
+```javascript
+db.products.find().pretty();
+```
+
+This displays the product documents in formatted form.
+
+### Expected Data
+
+**items**
+
+| Name | Price |
+|---|---:|
+| laptop | 999 |
+
+**products**
+
+| Name | Price | Stock |
+|---|---:|---:|
+| phone | 500 | 10 |
+| tablet | 300 | 5 |
+| watch | 150 | 0 |
+
+### Result
+
+The practical demonstrates:
+
+* Single-document insertion using `insertOne()`
+* Document retrieval using `find()`
+* Multiple-document insertion using `insertMany()`
+* Formatted document retrieval using `find().pretty()`
+
+### Practical File
 
 `document_operations.js`
 
