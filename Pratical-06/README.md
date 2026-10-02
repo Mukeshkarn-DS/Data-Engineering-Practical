@@ -4,36 +4,19 @@
 Represent an ETL-like workflow in Apache Airflow DAG format.
 
 ## Contents
-Two retained coursework DAG locations:
 - `dags/data_extraction.py`
 - `dags/data_pipeline_dag.py`
-- `pratical-06/dags/data_extraction.py`
-- `pratical-06/dags/data_pipeline_dag.py`
+
+The previous nested duplicate DAG directory has been removed because its files were identical to the canonical `dags/` files.
 
 ## Prerequisites
-- Apache Airflow environment
-- Python environment compatible with installed Airflow version
+- Apache Airflow
+- A Python environment compatible with the installed Airflow version
 
 ## Execution guidance
-Typical local Airflow flow:
 
-```bash
-cd Pratical-06
-# Place the desired dags/ folder in your AIRFLOW_HOME/dags or configure mount paths
-```
-
-`data_pipeline_dag.py` runs `python3 data_extraction.py` relative to the DAG folder.
-
-## Expected/available outputs
-- Airflow DAG named `university_etl_orchestration`
-- JSON output file under DAG-local `output/extracted_data.json` when extraction task runs
-
-## Troubleshooting
-- DAG import errors usually indicate missing Airflow installation.
-- Ensure `data_extraction.py` exists in the same folder as the DAG using `cwd={{ dag.folder }}`.
-
-## Verification status
-- Airflow runtime execution was **not re-verified in this documentation stage**.
+Place the `dags/` directory in the appropriate Airflow DAG location or configure the Airflow environment to load it.
 
 ## Learning outcomes
-- Understand task dependencies, scheduling, and simple BashOperator orchestration.
+- Understand Airflow DAG structure.
+- Understand task dependencies and simple ETL-style orchestration.
