@@ -20,7 +20,7 @@ Generated SQLite databases and report CSVs are intentionally excluded because th
 pip install -r requirements.txt
 ```
 
-## Execution guidance
+## Execution
 ```bash
 cd Practical-09
 python etl_pipeline.py
