@@ -1,901 +1,215 @@
-# 📊 Data Engineering Practical
+# Data Engineering Practical
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![SQL](https://img.shields.io/badge/SQL-Database-orange?logo=postgresql)
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?logo=powerbi)
-![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-E25A1C?logo=apachespark)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-Workflow%20Orchestration-017CEE?logo=apacheairflow)
-![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-181717?logo=github)
+[![CI](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/actions/workflows/ci.yml/badge.svg)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/Mukeshkarn-DS/Data-Engineering-Practical)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical)
+[![Stars](https://img.shields.io/github/stars/Mukeshkarn-DS/Data-Engineering-Practical)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/stargazers)
+[![Issues](https://img.shields.io/github/issues/Mukeshkarn-DS/Data-Engineering-Practical)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/Mukeshkarn-DS/Data-Engineering-Practical)](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/pulls)
 
-## 📌 About This Repository
+A structured collection of hands-on **Data Engineering practicals**, covering file processing, databases, MongoDB, analytics, Power BI, data extraction, Apache Airflow, ETL, PySpark, testing, and end-to-end data pipelines.
 
-This repository contains my **Data Engineering Practical work**, covering data processing, file handling, database operations, business intelligence, data extraction, workflow orchestration, ETL concepts, PySpark, and data-pipeline implementation.
+> **Status:** Active learning repository  
+> **Audience:** Students, recruiters, reviewers, and contributors  
+> **License:** MIT
 
-The repository contains **10 practical sections**, progressing from fundamental data/file operations to more advanced data-engineering workflows.
+## Table of Contents
 
-The work includes Python programs, datasets, database files, Power BI dashboards, screenshots, Airflow-related folders, ETL project files, PySpark processing, automated tests, pipeline scripts, and supporting project resources.
+- [Features](#features)
+- [Practicals](#practicals)
+- [Screenshots](#screenshots)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Repository Structure](#repository-structure)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Features
 
-# 🎯 Objectives
+- Python-based file parsing and data-quality exercises
+- Regular expressions and binary-file processing
+- SQLite/database CRUD practice
+- MongoDB document operations with mongosh/JavaScript
+- Exploratory data analysis and visualization
+- Power BI and Excel business-intelligence work
+- Data extraction and cleaning workflows
+- Apache Airflow workflow-orchestration concepts
+- ETL pipeline exercises
+- PySpark CSV and DataFrame processing
+- Project-based data-engineering workflows
+- Testing, dependency management, and GitHub Actions CI
+- Practical documentation and reproducible examples
 
-The main objectives of this practical work are:
+## Practicals
 
-* Understand practical Data Engineering concepts.
-* Process data from different file formats.
-* Perform data extraction and transformation.
-* Identify data-quality issues and anomalies.
-* Work with binary files.
-* Perform database CRUD operations.
-* Create and analyze business-intelligence dashboards.
-* Extract and clean data using Python.
-* Understand workflow orchestration with Apache Airflow.
-* Implement ETL concepts.
-* Process CSV data using PySpark.
-* Develop structured data pipelines.
-* Organize and document practical projects using GitHub.
+| Practical | Focus | Main Technologies |
+|---|---|---|
+| 01 | File parsing, anomaly checks, binary files, regex, CRUD | Python, Pandas, SQLite |
+| 02 | Business Intelligence dashboard | Power BI, Excel |
+| 03 | MongoDB document operations | JavaScript, MongoDB, mongosh |
+| 04 | Data analysis and visualization | Python, Pandas, Matplotlib |
+| 05 | Data extraction and warehouse/location data | Python, Pandas, CSV |
+| 06 | Workflow orchestration | Apache Airflow |
+| 07 | ETL pipeline concepts and implementation | Python, ETL |
+| 08 | CSV processing with Spark | Python, PySpark |
+| 09 | Project-based data engineering | Python, data/warehouse concepts |
+| 10 | Structured end-to-end pipeline | Python, database, testing |
 
----
+### Important folder names
 
-# 📚 Practical Overview
+Existing coursework folder names are intentionally preserved, including:
 
-| Practical    | Main Work                                        | Key Technologies          |
-| ------------ | ------------------------------------------------ | ------------------------- |
-| Practical No. 01 | File parsing, binary files, regex, database CRUD | Python, SQLite, Pandas    |
-| Practical No. 02 | Business Intelligence dashboard                  | Power BI, Excel           |
-| Practical No. 03 | MongoDB document operations                   | JavaScript & MongoDB              |
-| Practical No. 04 | Data analysis and visualization                  | Python, Data Analysis     |
-| Practical No. 05 | Data extraction and warehouse/location data      | Python, Pandas            |
-| Practical No. 06 | Workflow orchestration                           | Apache Airflow            |
-| Practical No. 07 | ETL project                                      | Python, ETL               |
-| Practical No. 08 | CSV data processing                              | PySpark                   |
-| Practical No. 09 | Data Engineering project                         | Data/Pipeline tools       |
-| Practical No. 10 | Structured data pipeline                         | Python, Database, Testing |
+- `Pratical-02/`
+- `Practical-3/`
+- `Praticall-08/`
 
----
+These names are part of the current repository structure and are **not renamed by this maintenance change**.
 
-# 🔹 Practical No. 01 — File Processing, Data Extraction & Database Operations
+## Screenshots
 
-📁 **Folder:** `Practical-01`
+Selected dashboard and practical screenshots are already stored inside the relevant practical folders.
 
-Practical 01 contains several Python programs covering different fundamental Data Engineering operations.
+For example, Practical 02 contains Power BI dashboard views covering sales overview, channel performance, product analysis, and forecasting.
 
-### Files
+To browse the screenshots and project outputs, open the corresponding practical folder in GitHub.
 
-* `ex1_parsing_and_anomalies.py`
-* `ex2_binary_files.py`
-* `ex3_regex_operations.py`
-* `ex4_database_crud.py`
-* `setup_data.py`
-* `sample.csv`
-* `sample.html`
-* `sample.json`
-* `sample.txt`
-* `sample.xml`
-* `records.bin`
-* `app.db`
-* `app.pkl`
+## Demo
 
-### Topics Covered
+This repository is a learning/practical collection and does not currently have a hosted web demo.
 
-#### 1. Parsing and Anomaly Detection
+For a local demonstration, clone the repository and run the individual practical according to its folder-level instructions.
 
-`ex1_parsing_and_anomalies.py`
+## Installation
 
-Works with multiple data formats and demonstrates data extraction and data-quality checking.
-
-Supported sample formats include:
-
-* TXT
-* CSV
-* HTML
-* XML
-* JSON
-
-The practical also includes checking data for anomalies and quality issues.
-
-#### 2. Binary File Processing
-
-`ex2_binary_files.py`
-
-Demonstrates binary-file operations using Python.
-
-Supporting files include:
-
-* `records.bin`
-* `app.pkl`
-
-#### 3. Regular Expressions
-
-`ex3_regex_operations.py`
-
-Demonstrates string processing using regular-expression operations.
-
-The practical covers operations such as:
-
-* Searching
-* Splitting
-* Replacing
-* Pattern matching
-
-#### 4. Database CRUD
-
-`ex4_database_crud.py`
-
-Demonstrates database operations using the accompanying:
-
-`app.db`
-
-The practical focuses on CRUD concepts:
-
-```text
-Create
-Read
-Update
-Delete
-```
-
-#### 5. Dataset Setup
-
-`setup_data.py`
-
-Provides supporting data/setup functionality for the practical.
-
-### Supporting Data
-
-```text
-sample.csv
-sample.html
-sample.json
-sample.txt
-sample.xml
-records.bin
-app.pkl
-app.db
-```
-
-[Open Practical 01](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-01)
-
----
-
-# 🔹 Practical No. 02 — Business Intelligence & Power BI
-
-📁 **Folder:** `Pratical-02`
-
-Practical 02 contains a complete **Business Intelligence / Power BI project** based on a retail-sales dataset.
-
-### Main Files
-
-* `business intelligence practical.pbix`
-* `Meridian_Retail_Sales_Dataset.xlsx`
-
-### Dashboard Screenshots
-
-The repository also contains screenshots representing different dashboard views:
-
-* `Sales_Overview.png.png`
-* `Sales_Channel_Performance.png.png`
-* `Product_Analysis.png.png`
-* `Forecast_Summary.png.png`
-
-### Main Technologies
-
-* Microsoft Power BI
-* Microsoft Excel
-* Data visualization
-* Business Intelligence
-* Retail sales analysis
-
-### Dashboard Areas
-
-The project contains analysis related to:
-
-* Sales overview
-* Sales-channel performance
-* Product analysis
-* Forecast summary
-
-The Power BI project and supporting Excel dataset are stored directly in the practical folder.
-
-[Open Practical 02](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-02)
-
----
-
-# 🔹 Practical No. 03 — MongoDB Operations
-
-📁 **Folder:** `Pratical-03/praticallno3`
-
-Practical 03 demonstrates basic **MongoDB document operations** using JavaScript and MongoDB.
-
-### Aim
-
-To perform single and multiple document insertion and retrieval operations in MongoDB.
-
-### Technology
-
-* JavaScript
-* MongoDB
-* mongosh
-
-### Database
-
-`practical3`
-
-### Collection 1 — `items`
-
-#### Step 1: Insert a Single Document
-
-```javascript
-db.items.insertOne({
-  name: "laptop",
-  price: 999
-});
-```
-
-This inserts one document into the `items` collection.
-
-#### Step 2: Retrieve the Document
-
-```javascript
-db.items.find();
-```
-
-This displays the documents stored in the `items` collection.
-
-### Collection 2 — `products`
-
-#### Step 3: Insert Multiple Documents
-
-```javascript
-db.products.insertMany([
-  { name: "phone", price: 500, stock: 10 },
-  { name: "tablet", price: 300, stock: 5 },
-  { name: "watch", price: 150, stock: 0 }
-]);
-```
-
-This inserts three product documents into the `products` collection.
-
-#### Step 4: Retrieve Products
-
-```javascript
-db.products.find().pretty();
-```
-
-This displays the product documents in formatted form.
-
-### Expected Data
-
-**items**
-
-| Name | Price |
-|---|---:|
-| laptop | 999 |
-
-**products**
-
-| Name | Price | Stock |
-|---|---:|---:|
-| phone | 500 | 10 |
-| tablet | 300 | 5 |
-| watch | 150 | 0 |
-
-### Result
-
-The practical demonstrates:
-
-* Single-document insertion using `insertOne()`
-* Document retrieval using `find()`
-* Multiple-document insertion using `insertMany()`
-* Formatted document retrieval using `find().pretty()`
-
-### Practical File
-
-`document_operations.js`
-
-[Open Practical 03](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-03)
-
----
-
-# 🔹 Practical No. 04 — Data Analysis & Visualization
-
-📁 **Folder:** `Pratical-04`
-
-Practical 04 contains screenshots demonstrating data-analysis work and visualization.
-
-### Files
-
-* `Original Dataset.png.png`
-* `Datasetcode.png.png`
-* `code.png`
-* `Histogram.png.png`
-* `Boxplot.png.png`
-
-### Main Topics
-
-The practical demonstrates:
-
-* Dataset inspection
-* Data-processing code
-* Histogram visualization
-* Boxplot visualization
-* Exploratory data analysis
-
-### Visualizations
-
-#### Histogram
-
-Used to understand the distribution of numerical data.
-
-#### Boxplot
-
-Used to examine:
-
-* Data distribution
-* Spread
-* Median
-* Potential outliers
-
-[Open Practical 04](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-04)
-
----
-
-# 🔹 Practical No. 05 — Data Extraction & Warehouse/Location Data
-
-📁 **Folder:** `Pratical-05`
-
-Practical 05 contains a Python-based data-extraction implementation along with location and cleaned warehouse-profile data.
-
-### Files
-
-* `data_extraction.py`
-* `locations.csv`
-* `cleaned_warehouse_profiles.csv`
-
-### Supporting Screenshots
-
-* `data_extractionpy.png.png`
-* `data_extractionpy.png (2).png`
-* `data_extractionpy3.png.png`
-* `locationcsv.png.png`
-* `cleaned_warehouse_profilescsv.png.png`
-
-### Main Workflow
-
-```text
-Input Data
-    ↓
-Data Extraction
-    ↓
-Data Processing
-    ↓
-Data Cleaning
-    ↓
-Cleaned Warehouse Profiles
-    ↓
-Output CSV
-```
-
-### Technologies
-
-* Python
-* Pandas
-* CSV
-* Data extraction
-* Data cleaning
-
-[Open Practical 05](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-05)
-
----
-
-# 🔹 Practical No. 06 — Workflow Orchestration with Apache Airflow
-
-📁 **Folder:** `Pratical-06`
-
-Practical 06 contains Airflow-related project folders.
-
-### Repository Structure
-
-```text
-Pratical-06/
-├── dags/
-└── pratical-06/dags/
-```
-
-### Main Concept
-
-The practical focuses on **workflow orchestration using Apache Airflow**.
-
-Airflow allows data workflows to be represented as Directed Acyclic Graphs (DAGs).
-
-### Basic Workflow
-
-```text
-Task 1
-  ↓
-Task 2
-  ↓
-Task 3
-  ↓
-Task 4
-```
-
-### Main Concepts
-
-* DAGs
-* Tasks
-* Workflow scheduling
-* Task dependencies
-* Workflow orchestration
-* Automated data workflows
-
-[Open Practical 06](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-06)
-
----
-
-# 🔹 Practical No. 07 — ETL Project
-
-📁 **Folder:** `Pratical-07`
-
-Practical 07 contains an ETL project structure and data resources.
-
-### Repository Contents
-
-```text
-Pratical-07/
-├── data/
-├── etl_project/
-├── etl-specialist.agent.md
-└── Practical 7/
-```
-
-### ETL Concept
-
-The project follows the basic ETL pattern:
-
-```text
-       EXTRACT
-          ↓
-       TRANSFORM
-          ↓
-         LOAD
-```
-
-### Extract
-
-Collect data from source files.
-
-### Transform
-
-Clean and transform the data into a suitable structure.
-
-### Load
-
-Store the processed data for further use.
-
-### Main Concepts
-
-* ETL
-* Data extraction
-* Data transformation
-* Data loading
-* Data pipeline structure
-
-[Open Practical 07](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-07)
-
----
-
-# 🔹 Practical No. 08 — PySpark CSV Processing
-
-📁 **Folder:** `Praticall-08/pyspark_practical`
-
-Practical 08 demonstrates CSV processing using **PySpark**.
-
-### Files
-
-* `products.csv`
-* `sales.csv`
-* `pyspark_csv_operations.py`
-
-### Technologies
-
-* Python
-* Apache Spark
-* PySpark
-* CSV
-
-### Processing Workflow
-
-```text
-CSV Files
-   │
-   ├── products.csv
-   │
-   └── sales.csv
-          ↓
-    Spark Processing
-          ↓
-     DataFrames
-          ↓
- Transformations
-          ↓
-    Final Results
-```
-
-### Main Concepts
-
-* SparkSession
-* CSV reading
-* Spark DataFrames
-* Data processing
-* Data transformation
-* Large-scale data-processing concepts
-
-[Open Practical 08](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Praticall-08/pyspark_practical)
-
----
-
-# 🔹 Practical No. 09 — Data Engineering Project
-
-📁 **Folder:** `Pratical-09`
-
-Practical 09 is included as a separate Data Engineering project section.
-
-The repository contains a dedicated practical folder for the implementation, project resources, and outputs.
-
-### Focus
-
-The practical extends the previous Data Engineering concepts toward project-based implementation.
-
-### Key Areas
-
-* Data processing
-* Data engineering workflow
-* Project organization
-* Data resources
-* Processing/output components
-
-[Open Practical 09](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-09)
-
----
-
-# 🔹 Practical No. 10 — End-to-End Data Pipeline
-
-📁 **Folder:** `Pratical-10/praticalno-10`
-
-Practical 10 has a more complete project structure containing separate components for data, database, output, scripts, testing, dependencies, and pipeline execution.
-
-### Structure
-
-```text
-praticalno-10/
-│
-├── data/
-├── database/
-├── output/
-├── scripts/
-├── tests/
-├── requirements.txt
-└── run_pipeline.py
-```
-
-### Main Components
-
-#### `data/`
-
-Contains project input/source data.
-
-#### `database/`
-
-Contains database-related resources.
-
-#### `output/`
-
-Contains generated/output results.
-
-#### `scripts/`
-
-Contains supporting processing scripts.
-
-#### `tests/`
-
-Contains testing resources for the project.
-
-#### `requirements.txt`
-
-Defines the Python dependencies required by the project.
-
-#### `run_pipeline.py`
-
-Acts as the pipeline execution entry point.
-
-### Pipeline Architecture
-
-```text
-              SOURCE DATA
-                   │
-                   ▼
-             ┌───────────┐
-             │   DATA    │
-             │   INPUT   │
-             └─────┬─────┘
-                   │
-                   ▼
-             ┌───────────┐
-             │  SCRIPTS  │
-             │ PROCESSING│
-             └─────┬─────┘
-                   │
-                   ▼
-             ┌───────────┐
-             │ DATABASE  │
-             └─────┬─────┘
-                   │
-                   ▼
-             ┌───────────┐
-             │  OUTPUT   │
-             └───────────┘
-
-                  ▲
-                  │
-              TESTING
-```
-
-[Open Practical 10](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-10/praticalno-10)
-
----
-
-# 🧰 Technologies Used
-
-## Programming
-
-* Python
-* JavaScript
-
-## Data Processing
-
-* Pandas
-* CSV
-* JSON
-* XML
-* HTML
-* Regular Expressions
-
-## Database
-
-* SQLite / database files
-* CRUD operations
-
-## Business Intelligence
-
-* Microsoft Power BI
-* Microsoft Excel
-
-## Data Engineering
-
-* ETL
-* Data pipelines
-* Data extraction
-* Data transformation
-* Workflow orchestration
-
-## Big Data
-
-* Apache Spark
-* PySpark
-
-## Workflow
-
-* Apache Airflow
-* DAG-based orchestration
-
-## Development
-
-* Git
-* GitHub
-* Python virtual environments
-* Dependency management
-* Testing
-
----
-
-# 📁 Repository Structure
-
-```text
-Data-Engineering-Practical/
-│
-├── Practical-01/
-│   ├── Python programs
-│   ├── Sample datasets
-│   ├── Binary files
-│   └── Database files
-│
-├── Pratical-02/
-│   ├── Power BI project
-│   ├── Excel dataset
-│   └── Dashboard screenshots
-│
-├── Pratical-03/
-│   └── JavaScript & MangoDB document operations
-│
-├── Pratical-04/
-│   └── Data-analysis screenshots
-│
-├── Pratical-05/
-│   ├── Python extraction program
-│   ├── Location data
-│   └── Cleaned warehouse data
-│
-├── Pratical-06/
-│   └── Airflow DAG structure
-│
-├── Pratical-07/
-│   └── ETL project
-│
-├── Praticall-08/
-│   └── PySpark practical
-│
-├── Pratical-09/
-│   └── Data Engineering project
-│
-├── Pratical-10/
-│   └── End-to-end pipeline project
-│
-└── README.md
-```
-
----
-
-# 🔄 Overall Data Engineering Journey
-
-The practicals collectively demonstrate the progression:
-
-```text
-File Processing
-      ↓
-Data Analysis
-      ↓
-Data Extraction
-      ↓
-Data Cleaning
-      ↓
-Database Operations
-      ↓
-Business Intelligence
-      ↓
-ETL
-      ↓
-Workflow Orchestration
-      ↓
-PySpark
-      ↓
-End-to-End Data Pipeline
-```
-
----
-
-# 🎓 Learning Outcomes
-
-Through these practicals, I developed hands-on exposure to:
-
-* Python-based data processing
-* File-format parsing
-* Data extraction
-* Data cleaning
-* Data-quality checking
-* Binary file handling
-* Regular expressions
-* Database CRUD operations
-* Data visualization
-* Power BI dashboard development
-* ETL workflows
-* Apache Airflow concepts
-* PySpark processing
-* Data pipeline architecture
-* Testing and dependency management
-* Git and GitHub
-
----
-
-# ▶️ Running the Projects
-
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Mukeshkarn-DS/Data-Engineering-Practical.git
-```
-
-Move into the repository:
-
-```bash
 cd Data-Engineering-Practical
 ```
 
-For Python-based practicals:
+### 2. Create a Python virtual environment
 
-```bash
-python filename.py
+Windows:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
-On Linux/WSL:
+Linux/macOS:
 
 ```bash
-python3 filename.py
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-For a project containing `requirements.txt`:
+### 3. Install project dependencies
+
+Some practicals have their own `requirements.txt`. Install dependencies from the practical you want to run:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Then execute the project's entry-point script where applicable:
+If a practical does not provide a requirements file, install only the libraries required by that practical.
+
+## Usage
+
+Each practical is intentionally independent. Start by opening the relevant folder and checking its files.
+
+Typical Python execution:
 
 ```bash
+python path/to/script.py
+```
+
+For Practical 10, where applicable:
+
+```bash
+cd Pratical-10/praticalno-10
 python run_pipeline.py
 ```
 
-> Always check the individual practical folder before running a program because each practical has its own files, datasets, dependencies, and execution requirements.
+For MongoDB practical work, open the JavaScript file and execute the commands with `mongosh` after starting a MongoDB instance.
 
+For Power BI work, open the `.pbix` file with Microsoft Power BI Desktop.
 
-# 🚀 Future Improvements
+For Airflow work, follow the DAG/project instructions inside Practical 06 before starting the Airflow services.
 
-Possible future improvements to this repository include:
+> Practical-specific dependencies and execution requirements take precedence over these generic commands.
 
-* Add individual `README.md` files inside every practical.
-* Add screenshots directly to each practical README.
-* Add `requirements.txt` for Python-based practicals.
-* Add automated tests where applicable.
-* Improve naming consistency of folders.
-* Add Apache Airflow scheduling examples.
-* Add Docker support.
-* Add cloud-based ETL pipelines.
-* Add data-warehouse implementation.
-* Add Apache Kafka streaming.
-* Add advanced PySpark transformations.
-* Add CI/CD using GitHub Actions.
+## Configuration
 
----
+No repository-wide secrets or environment variables are required for the documentation-only parts of this project.
 
-# 👨‍💻 Author
+If an individual practical requires configuration:
 
-## Mukesh Karn
+1. Check that practical's README or source files.
+2. Keep secrets out of Git.
+3. Use environment variables for credentials.
+4. Never commit passwords, API keys, database credentials, or private tokens.
 
-**B.Sc. Data Science Student**
+Use a local `.env` file when appropriate; `.env` is excluded by the root `.gitignore`.
 
-### Areas of Interest
+## Repository Structure
 
-* Data Engineering
-* Data Analytics
-* Data Science
-* Python
-* SQL
-* Power BI
-* Big Data
-* Machine Learning
+```text
+Data-Engineering-Practical/
+├── Practical-01/       # File processing and database fundamentals
+├── Practical-3/        # Existing Practical 03 folder name
+├── Pratical-02/        # Existing Practical 02 folder name
+├── Pratical-04/        # Data analysis and visualization
+├── Pratical-05/        # Data extraction and cleaning
+├── Pratical-06/        # Apache Airflow
+├── Pratical-07/        # ETL
+├── Praticall-08/       # Existing Practical 08 folder name
+├── Pratical-09/        # Data engineering project
+├── Pratical-10/        # End-to-end pipeline
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── dependabot.yml
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── SECURITY.md
+└── README.md
+```
 
----
+## Roadmap
 
-# 🔗 Repository
+- [ ] Add a concise README inside each practical
+- [ ] Add practical-specific dependency files where needed
+- [ ] Add more automated tests to project-based practicals
+- [ ] Improve reproducibility of ETL examples
+- [ ] Add Docker examples for selected pipelines
+- [ ] Add data-warehouse examples
+- [ ] Explore streaming with Apache Kafka
+- [ ] Expand cloud-oriented data-engineering examples
+- [ ] Add richer project-level documentation and architecture diagrams
 
-**GitHub Repository:**
+## Contributing
 
-https://github.com/Mukeshkarn-DS/Data-Engineering-Practical
+Contributions are welcome when they improve clarity, correctness, reproducibility, or learning value.
 
----
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
 
-# ⭐ Conclusion
+## License
 
-This repository represents my hands-on learning journey through Data Engineering practicals.
+This repository is licensed under the [MIT License](LICENSE).
 
-It covers the complete progression from basic data/file operations to data extraction, analysis, databases, Business Intelligence, ETL, workflow orchestration, PySpark, and structured data pipelines.
+## Contact
 
-The practical work demonstrates how different tools and technologies can be combined to build and understand real-world Data Engineering workflows.
+**Mukesh Karn**
 
----
+- GitHub: https://github.com/Mukeshkarn-DS
+- Repository: https://github.com/Mukeshkarn-DS/Data-Engineering-Practical
 
-## ⭐ Thank You
-
-Thank you for visiting my **Data Engineering Practical Repository**.
-
-**Learn → Build → Process → Test → Document → Improve 🚀**
+If you find an issue with a practical, please open a GitHub issue with the relevant practical number, environment, reproduction steps, and expected behavior.
