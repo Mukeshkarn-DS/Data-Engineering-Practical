@@ -41,20 +41,20 @@ The main objectives of this practical work are:
 
 | Practical    | Main Work                                        | Key Technologies          |
 | ------------ | ------------------------------------------------ | ------------------------- |
-| Practical 01 | File parsing, binary files, regex, database CRUD | Python, SQLite, Pandas    |
-| Practical 02 | Business Intelligence dashboard                  | Power BI, Excel           |
-| Practical 03 | MongoDB document operations                   | JavaScript & MongoDB              |
-| Practical 04 | Data analysis and visualization                  | Python, Data Analysis     |
-| Practical 05 | Data extraction and warehouse/location data      | Python, Pandas            |
-| Practical 06 | Workflow orchestration                           | Apache Airflow            |
-| Practical 07 | ETL project                                      | Python, ETL               |
-| Practical 08 | CSV data processing                              | PySpark                   |
-| Practical 09 | Data Engineering project                         | Data/Pipeline tools       |
-| Practical 10 | Structured data pipeline                         | Python, Database, Testing |
+| Practical No. 01 | File parsing, binary files, regex, database CRUD | Python, SQLite, Pandas    |
+| Practical No. 02 | Business Intelligence dashboard                  | Power BI, Excel           |
+| Practical No. 03 | MongoDB document operations                   | JavaScript & MongoDB              |
+| Practical No. 04 | Data analysis and visualization                  | Python, Data Analysis     |
+| Practical No. 05 | Data extraction and warehouse/location data      | Python, Pandas            |
+| Practical No. 06 | Workflow orchestration                           | Apache Airflow            |
+| Practical No. 07 | ETL project                                      | Python, ETL               |
+| Practical No. 08 | CSV data processing                              | PySpark                   |
+| Practical No. 09 | Data Engineering project                         | Data/Pipeline tools       |
+| Practical No. 10 | Structured data pipeline                         | Python, Database, Testing |
 
 ---
 
-# 🔹 Practical 01 — File Processing, Data Extraction & Database Operations
+# 🔹 Practical No. 01 — File Processing, Data Extraction & Database Operations
 
 📁 **Folder:** `Practical-01`
 
@@ -158,7 +158,7 @@ app.db
 
 ---
 
-# 🔹 Practical 02 — Business Intelligence & Power BI
+# 🔹 Practical No. 02 — Business Intelligence & Power BI
 
 📁 **Folder:** `Pratical-02`
 
@@ -201,7 +201,7 @@ The Power BI project and supporting Excel dataset are stored directly in the pra
 
 ---
 
-# 🔹 Practical 03 — MongoDB Operations
+# 🔹 Practical No. 03 — MongoDB Operations
 
 📁 **Folder:** `Pratical-03/praticallno3`
 
@@ -297,7 +297,7 @@ The practical demonstrates:
 
 ---
 
-# 🔹 Practical 04 — Data Analysis & Visualization
+# 🔹 Practical No. 04 — Data Analysis & Visualization
 
 📁 **Folder:** `Pratical-04`
 
@@ -340,7 +340,7 @@ Used to examine:
 
 ---
 
-# 🔹 Practical 05 — Data Extraction & Warehouse/Location Data
+# 🔹 Practical No. 05 — Data Extraction & Warehouse/Location Data
 
 📁 **Folder:** `Pratical-05`
 
@@ -388,7 +388,7 @@ Output CSV
 
 ---
 
-# 🔹 Practical 06 — Workflow Orchestration with Apache Airflow
+# 🔹 Practical No. 06 — Workflow Orchestration with Apache Airflow
 
 📁 **Folder:** `Pratical-06`
 
@@ -433,7 +433,7 @@ Task 4
 
 ---
 
-# 🔹 Practical 07 — ETL Project
+# 🔹 Practical No. 07 — ETL Project
 
 📁 **Folder:** `Pratical-07`
 
@@ -485,7 +485,7 @@ Store the processed data for further use.
 
 ---
 
-# 🔹 Practical 08 — PySpark CSV Processing
+# 🔹 Practical No. 08 — PySpark CSV Processing
 
 📁 **Folder:** `Praticall-08/pyspark_practical`
 
@@ -535,7 +535,7 @@ CSV Files
 
 ---
 
-# 🔹 Practical 09 — Data Engineering Project
+# 🔹 Practical No. 09 — Data Engineering Project
 
 📁 **Folder:** `Pratical-09`
 
@@ -559,7 +559,7 @@ The practical extends the previous Data Engineering concepts toward project-base
 
 ---
 
-# 🔹 Practical 10 — End-to-End Data Pipeline
+# 🔹 Practical No. 10 — End-to-End Data Pipeline
 
 📁 **Folder:** `Pratical-10/praticalno-10`
 
