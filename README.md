@@ -160,7 +160,7 @@ app.db
 
 # 🔹 Practical 02 — Business Intelligence & Power BI
 
-📁 **Folder:** `Pratical-02`
+📁 **Folder:** `Practical-02`
 
 Practical 02 contains a complete **Business Intelligence / Power BI project** based on a retail-sales dataset.
 
@@ -197,13 +197,13 @@ The project contains analysis related to:
 
 The Power BI project and supporting Excel dataset are stored directly in the practical folder.
 
-[Open Practical 02](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-02)
+[Open Practical 02](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-02)
 
 ---
 
 # 🔹 Practical 03 — Document Operations
 
-📁 **Folder:** `Pratical-03/praticallno3`
+📁 **Folder:** `Practical-03/praticallno3`
 
 Practical 03 currently contains:
 
@@ -221,13 +221,13 @@ This practical demonstrates document/string-related processing using JavaScript.
 
 `document_operations.js`
 
-[Open Practical 03](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-03)
+[Open Practical 03](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-03)
 
 ---
 
 # 🔹 Practical 04 — Data Analysis & Visualization
 
-📁 **Folder:** `Pratical-04`
+📁 **Folder:** `Practical-04`
 
 Practical 04 contains screenshots demonstrating data-analysis work and visualization.
 
@@ -264,13 +264,13 @@ Used to examine:
 * Median
 * Potential outliers
 
-[Open Practical 04](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-04)
+[Open Practical 04](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-04)
 
 ---
 
 # 🔹 Practical 05 — Data Extraction & Warehouse/Location Data
 
-📁 **Folder:** `Pratical-05`
+📁 **Folder:** `Practical-05`
 
 Practical 05 contains a Python-based data-extraction implementation along with location and cleaned warehouse-profile data.
 
@@ -312,20 +312,20 @@ Output CSV
 * Data extraction
 * Data cleaning
 
-[Open Practical 05](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-05)
+[Open Practical 05](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-05)
 
 ---
 
 # 🔹 Practical 06 — Workflow Orchestration with Apache Airflow
 
-📁 **Folder:** `Pratical-06`
+📁 **Folder:** `Practical-06`
 
 Practical 06 contains Airflow-related project folders.
 
 ### Repository Structure
 
 ```text
-Pratical-06/
+Practical-06/
 ├── dags/
 └── pratical-06/dags/
 ```
@@ -357,20 +357,20 @@ Task 4
 * Workflow orchestration
 * Automated data workflows
 
-[Open Practical 06](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-06)
+[Open Practical 06](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-06)
 
 ---
 
 # 🔹 Practical 07 — ETL Project
 
-📁 **Folder:** `Pratical-07`
+📁 **Folder:** `Practical-07`
 
 Practical 07 contains an ETL project structure and data resources.
 
 ### Repository Contents
 
 ```text
-Pratical-07/
+Practical-07/
 ├── data/
 ├── etl_project/
 ├── etl-specialist.agent.md
@@ -409,13 +409,13 @@ Store the processed data for further use.
 * Data loading
 * Data pipeline structure
 
-[Open Practical 07](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-07)
+[Open Practical 07](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-07)
 
 ---
 
 # 🔹 Practical 08 — PySpark CSV Processing
 
-📁 **Folder:** `Praticall-08/pyspark_practical`
+📁 **Folder:** `Practical-08/pyspark_practical`
 
 Practical 08 demonstrates CSV processing using **PySpark**.
 
@@ -459,13 +459,13 @@ CSV Files
 * Data transformation
 * Large-scale data-processing concepts
 
-[Open Practical 08](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Praticall-08/pyspark_practical)
+[Open Practical 08](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-08/pyspark_practical)
 
 ---
 
 # 🔹 Practical 09 — Data Engineering Project
 
-📁 **Folder:** `Pratical-09`
+📁 **Folder:** `Practical-09`
 
 Practical 09 is included as a separate Data Engineering project section.
 
@@ -483,20 +483,20 @@ The practical extends the previous Data Engineering concepts toward project-base
 * Data resources
 * Processing/output components
 
-[Open Practical 09](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-09)
+[Open Practical 09](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-09)
 
 ---
 
 # 🔹 Practical 10 — End-to-End Data Pipeline
 
-📁 **Folder:** `Pratical-10/praticalno-10`
+📁 **Folder:** `Practical-10`
 
 Practical 10 has a more complete project structure containing separate components for data, database, output, scripts, testing, dependencies, and pipeline execution.
 
 ### Structure
 
 ```text
-praticalno-10/
+Practical-10/
 │
 ├── data/
 ├── database/
@@ -569,7 +569,7 @@ Acts as the pipeline execution entry point.
               TESTING
 ```
 
-[Open Practical 10](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Pratical-10/praticalno-10)
+[Open Practical 10](https://github.com/Mukeshkarn-DS/Data-Engineering-Practical/tree/main/Practical-10)
 
 ---
 
@@ -638,35 +638,35 @@ Data-Engineering-Practical/
 │   ├── Binary files
 │   └── Database files
 │
-├── Pratical-02/
+├── Practical-02/
 │   ├── Power BI project
 │   ├── Excel dataset
 │   └── Dashboard screenshots
 │
-├── Pratical-03/
+├── Practical-03/
 │   └── JavaScript & MangoDB document operations
 │
-├── Pratical-04/
+├── Practical-04/
 │   └── Data-analysis screenshots
 │
-├── Pratical-05/
+├── Practical-05/
 │   ├── Python extraction program
 │   ├── Location data
 │   └── Cleaned warehouse data
 │
-├── Pratical-06/
+├── Practical-06/
 │   └── Airflow DAG structure
 │
-├── Pratical-07/
+├── Practical-07/
 │   └── ETL project
 │
-├── Praticall-08/
+├── Practical-08/
 │   └── PySpark practical
 │
-├── Pratical-09/
+├── Practical-09/
 │   └── Data Engineering project
 │
-├── Pratical-10/
+├── Practical-10/
 │   └── End-to-end pipeline project
 │
 └── README.md
