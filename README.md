@@ -42,7 +42,7 @@ Each practical is organized in its own folder with source files, datasets, docum
 | 03 | [MongoDB Operations](./Practical-03/) | Insert, retrieve and multiple-document operations | MongoDB, mongosh | ✅ Query screenshots |
 | 04 | [Noise Elimination, Feature Selection & EDA](./Practical-04/) | Data analysis, distributions and outlier visualization | Python, Jupyter | ✅ EDA screenshots |
 | 05 | [API & CSV Data Extraction](./Practical-05/) | API extraction, cleaning and CSV merging | Python, Pandas, Requests | ✅ Execution screenshots |
-| 06 | [Workflow Orchestration](./Practical-06/) | DAGs, tasks and workflow orchestration | Apache Airflow, Python | 🟡 Airflow evidence |
+| 06 | [Workflow Orchestration](./Practical-06/) | DAGs, tasks and workflow orchestration | Apache Airflow, Python |  ✅ Airflow evidence |
 | 07 | [CSV/JSON ETL & Incremental Loading](./Practical-07/) | Validation, transformation and SQLite incremental loading | Python, Pandas, SQLite | ✅ ETL + database screenshots |
 | 08 | [PySpark CSV Processing](./Practical-08/) | Filtering, aggregation, deduplication and joins | PySpark, Spark | ✅ Execution screenshots |
 | 09 | [Incremental E-commerce ETL](./Practical-09/) | Historical/incremental ETL, reports and testing | Python, Pandas, SQLite | ✅ ETL + report + test screenshots |
